@@ -2,9 +2,6 @@
 
 This is a fully functional frontend E-Commerce website built using **HTML**, **CSS**, and **JavaScript**.  
 It includes product listing, search, filtering, sorting, cart management, dark mode, and more.  
-All cart data is stored in **localStorage**, so the user’s items stay saved even after refreshing.
-
-This project is designed as a clean, modern, beginner-friendly yet professional-level application suitable for **internships and portfolio use**.
 
 ## 🚀 Features
 
