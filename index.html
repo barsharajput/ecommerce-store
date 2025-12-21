@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>My E-Commerce Store</title>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <!-- HEADER -->
+        <header class="main-header">
+            <div class="logo">MyStore</div>
+
+            <input
+                type="text"
+                id="searchBar"
+                placeholder="Search products..."
+            />
+
+            <div class="header-actions">
+                <button id="themeToggle">🌙</button>
+
+                <a href="cart.html" class="cart-icon">
+                    🛒 <span id="cart-count">0</span>
+                </a>
+            </div>
+        </header>
+
+        <!-- FILTERS -->
+        <section class="filters">
+            <select id="category-filter">
+                <option value="all">All Categories</option>
+            </select>
+
+            <select id="price-filter">
+                <option value="all">Sort by Price</option>
+                <option value="low">Low → High</option>
+                <option value="high">High → Low</option>
+            </select>
+
+            <select id="rating-filter">
+                <option value="all">Sort by Rating</option>
+                <option value="4">4★ & Up</option>
+                <option value="3">3★ & Up</option>
+            </select>
+        </section>
+
+        <!-- PRODUCT GRID -->
+        <main>
+            <div id="product-grid" class="product-grid"></div>
+        </main>
+
+        <!-- TOAST (Add to cart notification) -->
+        <div id="toast">Added to cart</div>
+
+        <!-- FOOTER -->
+        <footer class="main-footer">
+            © 2025 MyStore • Premium Dark Mode UI • Built with ❤️
+        </footer>
+
+        <script src="script.js"></script>
+    </body>
+</html>
